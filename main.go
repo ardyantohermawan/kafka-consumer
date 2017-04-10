@@ -14,9 +14,9 @@ import (
 )
 
 const (
-	DefaultKafkaTopics      = "topic"
+	DefaultKafkaTopics      = "device_detonatorremote_Channel"
 	DefaultConsumerGroup    = "consumer_example.go"
-	DefaultZookeeperCluster = "192.168.0.116:2181,192.168.0.116:2182,192.168.0.116:2183"
+	DefaultZookeeperCluster = "192.168.100.8:2182,192.168.100.8:2183,192.168.100.8:2184"
 )
 
 var (
